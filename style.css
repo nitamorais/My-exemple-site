@@ -1,0 +1,94 @@
+body {
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .header {
+        padding: 0 30px;
+        background-color: #ff0000;
+        color: #fff;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .nav a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+    }
+    .nav a:hover{
+        color: #FFCDD2;
+    }
+    .nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .nav li{ margin-left: 20px;
+    }
+
+  .hero {
+      background-color: #FFCDD2;
+      padding: 60px 45px;
+      display: flex;
+      justify-content: center;      
+
+  }  
+  .hero-inner {
+      max-width: 768px;
+  }
+
+  .hero h1{
+      font-weight: normal;
+      font-size: 2.5em;
+      margin: 0;
+  }
+  .hero p{
+      font-size: 1.18em;
+      line-height: 1.6;
+  }
+  .button {
+      background-color: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 10px;
+      display: inline-block;
+  }
+.features {
+    background-color: #FFEEEE;  
+    padding: 60px 55px;
+
+}
+.features-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+}
+.features-inner h3{
+    color:#ff0000;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+.features-item {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    
+}
+.footer p{
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 2rem;
+    
+
+}
+   
